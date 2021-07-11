@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Layout from "./components/layout";
+import Image from "next/image";
 
 export default function Home({ res }) {
   console.log(res);
@@ -14,7 +15,7 @@ export default function Home({ res }) {
             <Link href={`/${crypto.id}`}>
               <a className="rounded-md">
                 <div className="text-center">
-                  <img
+                  <Image
                     src={crypto.logo_url}
                     alt={crypto.name}
                     className="w-20 h-20 mx-auto mb-6"
