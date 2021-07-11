@@ -15,10 +15,11 @@ export default function Home({ res }) {
             <Link href={`/${crypto.id}`}>
               <a className="rounded-md">
                 <div className="text-center">
-                  <Image
+                  <img
                     src={crypto.logo_url}
                     alt={crypto.name}
                     className="w-20 h-20 mx-auto mb-6"
+                    
                   />
                 </div>
                 <h2 className="text-2xl mb-6 uppercase tracking-wider">
