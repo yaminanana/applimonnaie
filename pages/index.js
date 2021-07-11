@@ -11,7 +11,7 @@ export default function Home({ res }) {
             key={index}
             className="relative hover:shadow-md p-8 border border-blue-300 rounded-3xl bg-blue-100 md:w-auto flex-1 mx-5"
           >
-            <Link href="/">
+            <Link href={`/${crypto.id}`}>
               <a className="rounded-md">
                 <div className="text-center">
                   <img

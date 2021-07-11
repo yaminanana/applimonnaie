@@ -2,3 +2,6 @@
 
 https://api.nomics.com/v1/currencies/ticker?key=4f081a11cb61243d2f2c8c62c2aead5e34449c2e&ids=BTC,
 ETH,AAVE&interval=1d,30d, 365d
+
+
+"https://api.nomics.com/v1/currencies?key=4f081a11cb61243d2f2c8c62c2aead5e34449c2e&ids=BTC&attributes=id,name,logo_url,description,reddit_url"
